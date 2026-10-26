@@ -14,6 +14,7 @@ public class RollTheDiceApplication {
             int roll2 = dice.roll();
             int sum = roll1 + roll2;
 
+
             System.out.printf(
                     "Roll %d: %d - %d Sum: %d%n",
                     i, roll1, roll2, sum
